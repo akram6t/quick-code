@@ -6,7 +6,7 @@ QuickCode is an online code editor and playground designed for developers to wri
 
 ## Installation
 
-QuickCode is a web-based application and does not require installation. Simply visit [QuickCode](#) in your browser to start coding.
+QuickCode is a web-based application and does not require installation. Simply visit [QuickCode](https://quickcode.pages.dev) in your browser to start coding.
 
 ## Getting Started
 
