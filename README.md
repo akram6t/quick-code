@@ -2,6 +2,10 @@
 
 QuickCode is an online code editor and playground designed for developers to write, test, and share code snippets in real-time. Inspired by tools like JS Bin and JS Fiddle, QuickCode provides a fast and intuitive interface for coding on the go.
 
+---
+<a href="https://quickcode.pages.dev" target="_blank">Demo</a>
+---
+
 ![QuickCode Banner](https://akram6t.github.io/quick-code/screenshort1.png)
 
 ## Installation
