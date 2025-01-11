@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  @apply dark:text-neutral-100 dark:bg-neutral-900;
+}
+
+
+/* Change vertical scrollbar width to 2px */
+.monaco-scrollable-element > .scrollbar.vertical
+/* .monaco-scrollable-element > .scrollbar.horizontal  */
+{
+  width: 2px !important;
+}
+
+.monaco-scrollable-element > .scrollbar.vertical .slider
+/* .monaco-scrollable-element > .scrollbar.horizontal .slider  */
+{
+  width: 2px !important;
+}
