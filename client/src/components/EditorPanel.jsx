@@ -118,11 +118,11 @@ const EditorPanel = ({ isDark, html, setHtml, css, setCss, js, setJs }) => {
           style={{
             fontFamily: '"Fira code", "Fira Mono", monospace',
             fontSize: fontSize,
-            backgroundColor: isDark ? '#282a36' : '#f5f5f5', // Dracula background for dark, light background for light
-            color: isDark ? '#f8f8f2' : '#333', // Dracula text for dark, dark text for light
+            backgroundColor: '#282a36', // Dracula background for dark, light background for light
+            color: '#f8f8f2', // Dracula text for dark, dark text for light
             minHeight: '100%',
             borderRadius: '4px',
-            border: isDark ? '1px solid #44475a' : '1px solid #ddd', // Dracula border for dark, light border for light
+            // border: isDark ? '1px solid #44475a' : '1px solid #ddd', // Dracula border for dark, light border for light
           }}
           placeholder={`Enter ${active.toUpperCase()} code...`}
         />
