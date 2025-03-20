@@ -80,7 +80,7 @@ const CodeEditor = () => {
     return (
         <div className='h-screen flex flex-col'>
             <div className="bg-white dark:bg-neutral-800 shadow-lg dark:shadow-neutral-900 p-1 flex justify-between items-center">
-                <h1 className="text-md font-bold">React Code Editor</h1>
+                <h1 className="text-md font-bold">Quick Code</h1>
                 <ThemeSwitch onChange={handleThemeChange} />
             </div>
 

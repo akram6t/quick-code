@@ -3,7 +3,7 @@ export const DEFAULT_HTML = `<!DOCTYPE html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Code Editor</title>
+    <title>Quick Code</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -12,12 +12,12 @@ export const DEFAULT_HTML = `<!DOCTYPE html>
     </script>
   </head>
   <body>
-    <h1>World Hello</h1>
+    <h1>Hello World</h1>
   </body>
 </html>`
 
 
-export const combinedOutput = ({ html, css, js, isDark }) =>  `
+export const combinedOutput = ({ html, css, js, isDark }) => `
       <html class="${isDark ? 'dark' : ''}">
         <head>
           <style>
@@ -25,7 +25,7 @@ export const combinedOutput = ({ html, css, js, isDark }) =>  `
             font-family: 'arial', sans-sarif;
           }
           ${css}
-          ${isDark ? 'body { color: white; background-color: #1a1a1a; }' : ''}
+          ${isDark ? 'body { color: white; }' : ''}
           </style>
           <script>
             const consoleMethods = ['log', 'error', 'warn', 'info', 'debug'];
