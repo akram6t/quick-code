@@ -41,6 +41,7 @@ const CodeEditor = () => {
 
     const updateOutput = () => {
         setOutput(combinedOutput({ html, css, js, isDark }));
+        setConsoleLogs([]);
     };
 
     // Force the iframe to re-render by updating its key
