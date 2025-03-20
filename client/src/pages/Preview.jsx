@@ -42,7 +42,7 @@ export default function PreviewPage() {
                     key={iframeKey}
                     title="output"
                     srcDoc={output}
-                    className="w-full h-full bg-white dark:bg-neutral-800 rounded-lg"
+                    className="w-full h-full bg-white dark:bg-neutral-800"
                     sandbox="allow-scripts"
                 />
             </div>
